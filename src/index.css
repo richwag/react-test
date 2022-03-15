@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+.todo {
+    border: gray solid thin;
+    border-radius: 2px;
+    padding: 3px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
+.todo.selected {
+    background-color: red;
+}
+
+.todoTitle {
+    font-weight: bold;
+}
+
+.todoStatus {
+    color: blue;
+}

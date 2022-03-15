@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`todos renders 1`] = `
+<div>
+  <div>
+    <div
+      class="todo"
+    >
+      <div
+        class="todoTitle"
+      >
+        test
+      </div>
+      <div
+        class="todoStatus"
+      >
+        complete
+         
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`todos renders error when retrieve fails 1`] = `
+<div>
+  <div>
+    Error
+  </div>
+</div>
+`;
